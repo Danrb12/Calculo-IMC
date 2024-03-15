@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de IMC</h1> 
+    </header>
+    <section>
+        <div>
+            <p>
+                Insira seu peso:
+                <input type="number" name="txtpeso" id="txtpeso" min="0" max="200">
+                Insira sua altura:
+                <input type="number" name="txtaltura" id="txtaltura" min="0" max="2">
+            </p>
+            <p>
+                Coloque os decimais com um "."
+            </p>
+          
+          
+           
+            <p>
+                <input type="button" value="IMC" onclick="verificar()">
+                
+
+            </p>
+       
+    </section>
+    <article>
+        
+            <div id="res">
+                <h2>Resultado:</h2>
+                </div>
+    
+                 <div id="clas"></div>
+                 
+                    
+        
+    </article>
+    <footer>
+        <p>&copy; Danrbrito</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
